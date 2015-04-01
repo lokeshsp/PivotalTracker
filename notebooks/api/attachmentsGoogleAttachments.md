@@ -32,7 +32,7 @@ API_TOKEN = prompt("Please, enter your PivotalTracker API TOKEN")
 
 // Read about the Pivotal Tracker at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/8017/versions/8183/contracts
 
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/8017/versions/8183/definition');
+API.createClient('client', '#REF_TAG_DEFENITION_Pivotal Tracker:');
 
 ```
 
@@ -40,7 +40,7 @@ API.createClient('client', '/apiplatform/repository/public/organizations/30/apis
 
 // Read about the PivotalTracker Attachment Download API at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/8019/versions/8185/contracts
 
-API.createClient('attachmentClient', '/apiplatform/repository/public/organizations/30/apis/8019/versions/8185/definition');
+API.createClient('attachmentClient', '#REF_TAG_DEFENITION_PivotalTracker Attachment Download:');
 
 ```
 

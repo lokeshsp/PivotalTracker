@@ -32,7 +32,7 @@ API_TOKEN = prompt("Please, enter your PivotalTracker API TOKEN")
 
 // Read about the Pivotal Tracker at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/8017/versions/8183/contracts
 
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/8017/versions/8183/definition');
+API.createClient('client', '#REF_TAG_DEFENITION');
 
 ```
 
